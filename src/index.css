@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 5mm 6mm;
+  }
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 6.8pt !important;
+    line-height: 1.15 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .print-page-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  table {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  tr {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+  th, td {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+  }
+}

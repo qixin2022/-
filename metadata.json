@@ -1,0 +1,6 @@
+{
+  "name": "勤務管理表（勤怠管理・Excel数式出力・印刷対応）",
+  "description": "実働時間・残業・固定祝日・昼休み・定修自動計算および数式付き標準Excel印刷出力に対応した勤務管理システム",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
